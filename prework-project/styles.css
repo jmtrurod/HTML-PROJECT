@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #D3D3D3;
+  font-family: "Comic Sans MS", Times, serif;
+}
+
+.header{
+  background-image: url("abstract-background.jpg");
+  height: 120px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid #FFFFFF;
+  margin: 10px 10px;
+}
+
+.downpage{
+  display: flex;
+}
+
+.sidebar{
+  width: 300px;
+  min-width: 300px;
+}
+
+.select-design, .archives, .resources, .right-al-box, .left-al-box{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 5px solid #FFFFFF;
+  margin: 10px 10px;
+  padding: 5px 20px;
+  box-shadow: 1px 2px;
+}
+
+li, h4{
+  margin-bottom: 10px;
+}
+
+h2{
+  margin-bottom: 15px;
+  background-image: url("stripes.jpg");
+}
+
+.content{
+  flex: 1;
+}
+
+.right-al-box p, .left-al-box p{
+  margin-bottom: 7px;
+}
+
+.right-al-box{
+  padding-left: 100px;
+}
+
+.left-al-box{
+  padding-right: 100px;
+}
+
+a{
+  margin-top: 10px;
+  color: #FF00FF;
+  text-decoration: none;
+}
+
+.select-design a{
+  margin-top: 10px;
+  color: #C71585;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+a:active{
+  background-color: #F4EAF4;
+}
+
+a:visited{
+  color: #9126FB;
+}
+
+.select-design:hover, .archives:hover, .resources:hover,.right-al-box:hover, .left-al-box:hover{
+  transform:scale(1.02,1.02);
+}
+.select-design:hover h2, .archives:hover h2, .resources:hover h2,.right-al-box:hover h2, .left-al-box:hover h2{
+  color: #7A7BEA;
+}
+
+.header:hover{
+  transform:scale(1,1);
+  color: yellow;
+}

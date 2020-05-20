@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  padding: 100px;
+  background-color: #5557FF;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  border: solid 20px;
+  border-radius: 40px;
+  border-color: white;
+}
